@@ -23,4 +23,4 @@ I have developed a responsive personal portfolio website showcasing my skills an
 
 Feel free to explore, and don't hesitate to reach out for collaboration or inquiries.
 
-<h1>Author- Shivang Baranwal</h1>
+<h1>Author- Adarsh M Nair</h1>
