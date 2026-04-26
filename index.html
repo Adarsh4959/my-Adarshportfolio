@@ -2,183 +2,230 @@
 <html lang="en">
 <head>  
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Personal Portfolio Website</title>
+    <title>Adarsh M Nair | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
 </head>  
+
 <body>
-    <header>
-        <a href="#" class="logo">Port<span>Folio.</span></a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        <ul class="navbar"> 
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#services">Service</a></li>
-            <li><a href="#contact">Contact</a></li>
+
+<!-- HEADER -->
+<header>
+    <a href="#" class="logo">Adarsh<span>.</span></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar"> 
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
         <div class="bx bx-moon" id="darkmode"></div>
-        </ul>
-    </header>
-    <section class="home" id="home">
-        <div class="social">
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
-            <a href="#"><i class="bx bxl-github"></i></a>
-            <a href="#"><i class="bx bxl-instagram"></i></a>
-            <a href="#"><i class="bx bxl-facebook"></i></a>
+    </ul>
+</header>
+
+<!-- HOME -->
+<section class="home" id="home">
+    <div class="social">
+        <a href="https://linkedin.com/in/YOUR-ID" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+    </div>
+
+    <div class="home-img">
+        <img src="user.png" alt="Adarsh">
+    </div>
+
+    <div class="home-text">
+        <span>Hello, I'm</span>
+        <h1>Adarsh M Nair</h1>
+        <h2>I am a <span class="role"></span></h2>
+
+        <p>
+            MBA student specializing in International Transportation and Logistics Management. 
+            Passionate about supply chain, port operations, and technology-driven logistics solutions.
+        </p>
+
+        <a href="Adarsh_CV.pdf" download class="btn">Download CV</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <div class="heading">
+        <h2>About Me</h2>
+        <span>Introduction</span>
+    </div>
+
+    <div class="about-container">
+        <div class="about-img">
+            <img src="user.png" alt="">
         </div>
-        <div class="home-img">
-            <img class="hero user-image" src="user.png" alt="">
-        </div>
-        <div class="home-text">
-            <span>Hello, I'm</span>
-            <h1>Shivang Baranwal</h1>
-            <h2>I am a <span class="role"></span> </h2>
-            <p>I'm a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer.</p>
-            <a href="#" class="btn">Download CV</a>
-            <div class="btn-pink" id="btn">Hire me</div>
-            <div class="absolute faded-text">Shivang Baranwal</div>
-        </div>
-    </section>
-    <section class="about" id="about">
-        <div class="heading">
-            <h2>About Me</h2>
-            <span>Introduction </span>
-        </div>
-        <div class="about-container">
-            <div class="about-img">
-                <img class="hero" src="user.png" alt="">
-            </div>
-            <div class="about-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consequatur, ab numquam repudiandae officiis impedit exercitationem delectus hic eum, iusto voluptatibus minus. Aut, laboriosam.</p>
-                <div class="information">
-                    <div class="info-box">
-                        <i class="bx bxs-user"></i>
-                        <span>Shivang Baranwal</span>
-                    </div>
-                    <div class="info-box">
-                        <i class='bx bxs-phone-call'></i>
-                        <span>+1234567894</span>
-                    </div>
-                    <div class="info-box">
-                        <i class='bx bxl-gmail' ></i>
-                        <span>ABCDFRE4@gmail.com</span>
-                    </div>
+
+        <div class="about-text">
+            <p>
+                I am currently pursuing my MBA in International Transportation and Logistics Management 
+                at IMU Kochi. I have a strong interest in supply chain management, shipping, and logistics 
+                operations. I am actively seeking opportunities to gain practical experience and grow 
+                in the logistics and maritime industry.
+            </p>
+
+            <div class="information">
+                <div class="info-box">
+                    <i class="bx bxs-user"></i>
+                    <span>Adarsh M Nair</span>
                 </div>
-                <a href="#" class="btn">Download CV</a>
-            </div>
-        </div>
-    </section>
-    <section class="skills" id="skills">
-        <div class="heading">
-            <h2>Skills</h2>
-            <span>My Skills</span>
-        </div>
-        <div class="skills-container">
-            <div class="bars">
-                <div class="bars-box">
-                    <h3>HTML</h3>
-                    <span>95%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar html-bar"></div>
+
+                <div class="info-box">
+                    <i class='bx bxs-phone'></i>
+                    <span>+91 XXXXXXXXXX</span>
                 </div>
-                <div class="bars-box">
-                    <h3>CSS</h3>
-                    <span>85%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar css-bar"></div>
-                </div>
-                <div class="bars-box">
-                    <h3>Javascript</h3>
-                    <span>75%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar js-bar"></div>
-                </div>
-                <div class="bars-box">
-                    <h3>React</h3>
-                    <span>80%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar react-bar"></div>
+
+                <div class="info-box">
+                    <i class='bx bx-envelope'></i>
+                    <span>yourmail@gmail.com</span>
                 </div>
             </div>
-            <div class="skills-img">
-                <img class="hero" src="user.png" alt="">
-            </div>
-        </div>
-    </section>
-    <section class="services" id="services">
-        <div class="heading">
-            <h2>Services</h2>
-            <span>Our Services</span>
-        </div>
-        <div class="services-container">
-            <div class="services-box">
-                <i class="bx bx-code-alt"></i>
-                <h3>Web Development</h3>
-                <a href="#">Learn More</a>
-            </div>
-            <div class="services-box">
-                <i class="bx bx-server"></i>
-                <h3>Backend Development</h3>
-                <a href="#">Learn More</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bxs-cog' ></i>
-                <h3>Software Engineer</h3>
-                <a href="#">Learn More</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bxl-android' ></i>
-                <h3>App Development</h3>
-                <a href="#">Learn More</a>
-            </div>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <div class="heading">
-            <h2>Contact</h2>
-            <span>Connect With Us</span>
-        </div>
-        <div class="contact-form">
-            <form action="#">
-                <input type="text" placeholder="Your Name">
-                <input type="Email" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here...."></textarea>
-                <input type="button" value="Send" class="contact-button"> 
-            </form>
-        </div>
-    </section>
-    <div class="footer">
-        <h2>Follow Us</h2>
-        <div class="footer-social">
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
-            <a href="#"><i class="bx bxl-github"></i></a>
-            <a href="#"><i class="bx bxl-instagram"></i></a>
-            <a href="#"><i class="bx bxl-facebook"></i></a>
+
+            <a href="Adarsh_CV.pdf" download class="btn">Download CV</a>
         </div>
     </div>
-    <div class="copyright">
-        &#169; PortFolio | All Right Reserved
-    </div> 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
-    <script>
-        var typeData = new Typed(".role", {
-            strings: [
-                "Software Developer",
-                "Full Stack Developer",
-                "Web Developer",
-                "Backend Developer",
-                "Coder",
-            ],
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 80,
-            backDelay: 1000,
-        });
-    </script>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+    <div class="heading">
+        <h2>Skills</h2>
+        <span>My Skills</span>
+    </div>
+
+    <div class="skills-container">
+        <div class="bars">
+
+            <div class="bars-box">
+                <h3>Supply Chain Management</h3>
+                <span>80%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>Logistics Operations</h3>
+                <span>75%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>MS Excel</h3>
+                <span>85%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar"></div>
+            </div>
+
+            <div class="bars-box">
+                <h3>Data Analysis</h3>
+                <span>70%</span>
+                <div class="light-bar"></div>
+                <div class="percent-bar"></div>
+            </div>
+
+        </div>
+
+        <div class="skills-img">
+            <img src="user.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+    <div class="heading">
+        <h2>Services</h2>
+        <span>What I Can Do</span>
+    </div>
+
+    <div class="services-container">
+
+        <div class="services-box">
+            <i class="bx bx-line-chart"></i>
+            <h3>Supply Chain Analysis</h3>
+        </div>
+
+        <div class="services-box">
+            <i class="bx bx-ship"></i>
+            <h3>Port & Shipping Knowledge</h3>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-data'></i>
+            <h3>Business Analysis</h3>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-cog'></i>
+            <h3>Logistics Planning</h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <div class="heading">
+        <h2>Contact</h2>
+        <span>Connect With Me</span>
+    </div>
+
+    <div class="contact-form">
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+            <input type="button" value="Send" class="contact-button"> 
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+    <h2>Follow Me</h2>
+    <div class="footer-social">
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+    </div>
+</div>
+
+<div class="copyright">
+    &#169; Adarsh M Nair | All Rights Reserved
+</div> 
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+var typeData = new Typed(".role", {
+    strings: [
+        "MBA Student",
+        "Logistics Enthusiast",
+        "Supply Chain Learner",
+        "Future Operations Manager"
+    ],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1000,
+});
+</script>
+
 </body>
-</html> 
+</html>
