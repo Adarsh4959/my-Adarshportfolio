@@ -1,174 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>  
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adarsh M Nair | Portfolio</title>
+    <title>Adarsh M Nair | Logistics & Supply Chain</title>
+    <meta name="description" content="Portfolio of Adarsh M Nair — MBA candidate specializing in International Transportation and Logistics Management.">
 
     <link rel="stylesheet" href="style.css">
 
     <!-- Icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
-</head>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
 
 <body>
 
 <header>
-    <a href="#" class="logo">Adarsh<span>.</span></a>
+    <a href="#home" class="logo">ADARSH<span>.</span></a>
 
     <div class="bx bx-menu" id="menu-icon"></div>
 
-    <ul class="navbar"> 
+    <ul class="navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#services">Services</a></li>
+        <li><a href="#focus">Focus</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><div class="bx bx-moon" id="darkmode"></div></li>
+        <li><div class="bx bx-moon" id="darkmode" role="button" aria-label="Toggle dark mode" tabindex="0"></div></li>
     </ul>
 </header>
 
+<main>
+
 <section class="home" id="home">
-    <div class="social">
-        <a href="https://www.linkedin.com/in/adarsh-m-nair-006a94221/" target="_blank"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/Adarsh4959"><i class="bx bxl-github"></i></a>
-        <a href="https://www.instagram.com/adarshm.nair"><i class="bx bxl-instagram"></i></a>
+
+    <div class="route-strip" aria-hidden="true">
+        <span class="route-point">KOCHI, IN <em>— origin</em></span>
+        <span class="route-line"><span class="route-marker"></span></span>
+        <span class="route-point">GLOBAL SUPPLY CHAINS <em>— destination</em></span>
     </div>
 
-    <div class="home-img">
-        <img src="user.png" alt="Adarsh">
-    </div>
+    <div class="home-container">
+        <div class="home-media">
+            <div class="id-card">
+                <img src="user.png" alt="Portrait of Adarsh M Nair">
+                <span class="id-stamp">MBA<br>2026</span>
+            </div>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/adarsh-m-nair-006a94221/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/Adarsh4959" target="_blank" rel="noopener" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+                <a href="https://www.instagram.com/adarshm.nair" target="_blank" rel="noopener" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+        </div>
 
-    <div class="home-text">
-        <span>Hello, I'm</span>
-        <h1>Adarsh M Nair</h1>
-        <h2>I am a <span class="role"></span></h2>
+        <div class="home-text">
+            <span class="eyebrow">Hello, I'm</span>
+            <h1>Adarsh M Nair</h1>
+            <h2>I am a <span class="role"></span></h2>
 
-        <p>
-            MBA student specializing in International Transportation and Logistics Management. 
-            Passionate about supply chain, port operations, and logistics solutions.
-        </p>
+            <p>
+                MBA candidate specializing in International Transportation and Logistics
+                Management at IMU Kochi. Interested in supply chain strategy, port
+                operations, and the systems that move goods across the world.
+            </p>
 
-        <a href="Adarsh_CV.pdf" download class="btn">Download CV</a>
+            <div class="cta-row">
+                <a href="Adarsh_CV.pdf" download class="btn btn-primary">
+                    <i class='bx bx-download'></i> Download CV
+                </a>
+                <a href="#contact" class="btn btn-ghost">Get in touch</a>
+            </div>
+        </div>
     </div>
 </section>
 
 <section class="about" id="about">
     <div class="heading">
+        <span class="field-label">Profile</span>
         <h2>About Me</h2>
     </div>
 
     <div class="about-container">
-        <div class="about-img">
-            <img src="user.png">
-        </div>
-
         <div class="about-text">
             <p>
-                I am currently pursuing MBA at IMU Kochi. 
-                Interested in logistics, shipping, and supply chain operations.
+                I'm currently pursuing an MBA at the Indian Maritime University, Kochi,
+                with a specialization in International Transportation and Logistics
+                Management. I'm drawn to the operational side of global trade — how
+                cargo, ships, and ports work together as one system, and where that
+                system can run smarter.
+            </p>
+            <p>
+                Outside coursework, I follow developments in shipping and supply chain
+                and enjoy breaking down how logistics networks are planned and
+                optimized.
             </p>
 
-            
-
-<section class="skills" id="skills">
-    <div class="heading">
-        <h2>Skills</h2>
-    </div>
-
-    <div class="skills-container">
-        <div class="bars">
-
-            <div class="bars-box">
-                <h3>Supply Chain</h3>
-                <span>80%</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar" style="width:80%"></div>
+            <div class="manifest-info">
+                <div class="manifest-row">
+                    <span class="manifest-key">Program</span>
+                    <span class="manifest-value">MBA — International Transportation &amp; Logistics Management</span>
+                </div>
+                <div class="manifest-row">
+                    <span class="manifest-key">Institution</span>
+                    <span class="manifest-value">Indian Maritime University, Kochi</span>
+                </div>
+                <div class="manifest-row">
+                    <span class="manifest-key">Interests</span>
+                    <span class="manifest-value">Supply Chain · Port Operations · Shipping</span>
+                </div>
+                <div class="manifest-row">
+                    <span class="manifest-key">Based in</span>
+                    <span class="manifest-value">Kochi, Kerala, India</span>
+                </div>
             </div>
-
-            <div class="bars-box">
-                <h3>Logistics</h3>
-                <span>75%</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar" style="width:75%"></div>
-            </div>
-
         </div>
     </div>
 </section>
 
-<section class="services" id="services">
+<section class="skills" id="skills">
     <div class="heading">
-        <h2>Services</h2>
+        <span class="field-label">Capabilities</span>
+        <h2>Skills</h2>
     </div>
 
-    <div class="services-container">
-        <div class="services-box">
-            <i class="bx bx-line-chart"></i>
-            <h3>Supply Chain Analysis</h3>
+    <div class="skills-container">
+        <div class="bars-box">
+            <div class="bars-top">
+                <h3>Supply Chain Management</h3>
+                <span class="bars-percent">80%</span>
+            </div>
+            <div class="light-bar"><div class="percent-bar" style="width:80%"></div></div>
         </div>
 
-        <div class="services-box">
+        <div class="bars-box">
+            <div class="bars-top">
+                <h3>Logistics &amp; Freight Operations</h3>
+                <span class="bars-percent">75%</span>
+            </div>
+            <div class="light-bar"><div class="percent-bar" style="width:75%"></div></div>
+        </div>
+
+        <div class="bars-box">
+            <div class="bars-top">
+                <h3>Data Tools (Excel &amp; PowerPoint)</h3>
+                <span class="bars-percent">70%</span>
+            </div>
+            <div class="light-bar"><div class="percent-bar" style="width:70%"></div></div>
+        </div>
+
+        <div class="bars-box">
+            <div class="bars-top">
+                <h3>Team Collaboration</h3>
+                <span class="bars-percent">85%</span>
+            </div>
+            <div class="light-bar"><div class="percent-bar" style="width:85%"></div></div>
+        </div>
+    </div>
+    <p class="skills-note">Placeholder ratings — swap in whatever reflects you best.</p>
+</section>
+
+<section class="focus" id="focus">
+    <div class="heading">
+        <span class="field-label">Interests</span>
+        <h2>Focus Areas</h2>
+    </div>
+
+    <div class="focus-container">
+        <div class="focus-box">
+            <i class="bx bx-line-chart"></i>
+            <h3>Supply Chain Analysis</h3>
+            <p>Studying how goods, information, and finances move through a network — and where that network can be made leaner.</p>
+        </div>
+
+        <div class="focus-box">
             <i class="bx bx-ship"></i>
-            <h3>Shipping Knowledge</h3>
+            <h3>Shipping &amp; Freight Operations</h3>
+            <p>Interested in the mechanics of ocean freight — vessel scheduling, documentation, and carrier operations.</p>
+        </div>
+
+        <div class="focus-box">
+            <i class="bx bx-anchor"></i>
+            <h3>Port &amp; Terminal Operations</h3>
+            <p>Exploring how ports manage throughput — berth allocation, container handling, and terminal efficiency.</p>
         </div>
     </div>
 </section>
 
 <section class="contact" id="contact">
     <div class="heading">
-        <h2>Contact</h2>
+        <span class="field-label">Contact</span>
+        <h2>Get in Touch</h2>
     </div>
 
-    <div class="contact-form">
-        <form>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Message"></textarea>
-            <input type="button" value="Send" class="contact-button"> 
+    <div class="contact-container">
+        <div class="contact-info">
+            <p>Open to conversations about logistics, supply chain, and shipping — or just to connect.</p>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/adarsh-m-nair-006a94221/" target="_blank" rel="noopener">
+                    <i class="bx bxl-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/Adarsh4959" target="_blank" rel="noopener">
+                    <i class="bx bxl-github"></i> GitHub
+                </a>
+                <a href="https://www.instagram.com/adarshm.nair" target="_blank" rel="noopener">
+                    <i class="bx bxl-instagram"></i> Instagram
+                </a>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+            <div class="form-row">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Say hello" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary contact-button">Send Message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
         </form>
     </div>
 </section>
 
+</main>
+
 <div class="copyright">
-    © Adarsh M Nair
-</div> 
+    © <span id="year"></span> Adarsh M Nair · Kochi, India
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-<script>
-// Typing
-new Typed(".role", {
-    strings: ["MBA Student","Logistics Enthusiast","Supply Chain Learner"],
-    loop: true,
-    typeSpeed: 100,
-    backSpeed: 80
-});
-
-// Dark Mode
-let darkmode = document.querySelector("#darkmode");
-
-darkmode.onclick = () => {
-    document.body.classList.toggle("active");
-
-    if(document.body.classList.contains("active")){
-        darkmode.classList.replace("bx-moon", "bx-sun");
-    } else {
-        darkmode.classList.replace("bx-sun", "bx-moon");
-    }
-};
-
-// Mobile Menu
-let menu = document.querySelector("#menu-icon");
-let navbar = document.querySelector(".navbar");
-
-menu.onclick = () => {
-    navbar.classList.toggle("active");
-};
-</script>
+<script src="scripts.js"></script>
 
 </body>
 </html>
