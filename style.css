@@ -229,7 +229,7 @@ header.shadow {
 
 .id-card {
     position: relative;
-    width: 180px;
+    width: 240px;
     border: 1px solid var(--card-border);
     background: var(--card);
     padding: 0.7rem;
@@ -668,7 +668,7 @@ textarea:focus-visible,
     .route-point em { display: none; }
 
     .home-media { flex-direction: row; justify-content: center; }
-    .id-card { width: 140px; }
+    .id-card { width: 170px; }
 
     .timeline::before { left: 26px; }
     .timeline-item { grid-template-columns: 52px 1fr; gap: 1rem; }
